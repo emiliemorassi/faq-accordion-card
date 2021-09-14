@@ -1,0 +1,40 @@
+/* Generic */
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+    font-style: normal;
+    margin : 0 ; 
+    padding:0 ;
+}
+:root{
+    font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */
+    /* Text */
+    --darkDesatBlue:hsl(238, 29%, 16%);
+    --softRed:hsl(14, 88%, 65%);
+
+    /* Background Gradient */
+    --softViolet:hsl(273, 75%, 66%);
+    --softBlue:hsl(240, 73%, 65%);
+
+    /* Text */
+    --veryDarkGrayishBlue:hsl(237, 12%, 33%);
+    --darkGrayishBlue:hsl(240, 6%, 50%);
+
+    /* Dividers */
+    --lightgrayishBlue : hsl(240, 5%, 91%);
+
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.2rem;
+    color: green;
+}
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+/* Mobile : 375px */
+/* Desktop : 1440px */
+/* ----------------------------------------- */
+
