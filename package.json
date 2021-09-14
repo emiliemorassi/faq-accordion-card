@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/emiliemorassi/faq-accordion-card/issues"
   },
-  "homepage": "https://github.com/emiliemorassi/faq-accordion-card#readme",
+  "homepage": "https://github.io/emiliemorassi/faq-accordion-card",
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
@@ -31,6 +32,7 @@
     "webpack-dev-server": "^4.2.1"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.3.2"
   }
 }
