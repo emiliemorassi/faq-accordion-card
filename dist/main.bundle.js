@@ -16,12 +16,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/bg-pattern-mobile.svg */ "./src/assets/images/bg-pattern-mobile.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/icon-arrow-down.svg */ "./src/assets/images/icon-arrow-down.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/bg-pattern-desktop.svg */ "./src/assets/images/bg-pattern-desktop.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Generic */\r\n*, \r\n*::before, \r\n*::after{\r\n    box-sizing: border-box;\r\n    font-style: normal;\r\n    margin : 0 ; \r\n    padding:0 ;\r\n}\r\n:root{\r\n    font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */\r\n\r\n    /* Text */\r\n    --darkDesatBlue:hsl(238, 29%, 16%);\r\n    --softRed:hsl(14, 88%, 65%);\r\n\r\n    /* Background Gradient */\r\n    --softViolet:hsl(273, 75%, 66%);\r\n    --softBlue:hsl(240, 73%, 65%);\r\n\r\n    /* Text */\r\n    --veryDarkGrayishBlue:hsl(237, 12%, 33%);\r\n    --darkGrayishBlue:hsl(240, 6%, 50%);\r\n\r\n    /* Dividers */\r\n    --lightgrayishBlue : hsl(240, 5%, 91%);\r\n}\r\nbody{\r\n    font-family: 'Kumbh Sans', sans-serif;\r\n    font-size: 1.2rem;\r\n    font-weight: 400;\r\n}\r\nmain{\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-image: linear-gradient(var(--softViolet), var(--softBlue));\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.card{\r\n    width: 80%;\r\n    height: 70vh;\r\n    background-color: white;\r\n    border-radius: 2.5rem;\r\n    position:relative;\r\n    margin-top: 10rem;\r\n    padding-top: 10rem;\r\n}\r\n#icon{\r\n    text-align: center;\r\n    width: 100%;\r\n    position: absolute;\r\n    transform: translate(0,-50%);\r\n    top: -4%;\r\n}\r\n#icon img{\r\n    width: 70%;\r\n    filter: drop-shadow(0px 25px 0px var(--lightgrayishBlue));\r\n}\r\n#content{\r\n    width: 80%;\r\n    margin: auto;\r\n}\r\nh1{\r\n    text-align: center;\r\n    font-size: 3rem;\r\n}\r\n.accordion{\r\n    padding-top: 2rem;\r\n}\r\nh2{\r\n    font-weight: normal;\r\n    font-size: 1.2rem;\r\n}\r\n\r\n/* ----------------------------------------- */\r\n/* ----------------------------------------- */\r\n/* Mobile : 375px */\r\n/* Desktop : 1440px */\r\n/* ----------------------------------------- */\r\n\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA,YAAY;AACZ;;;IAGI,sBAAsB;IACtB,kBAAkB;IAClB,WAAW;IACX,UAAU;AACd;AACA;IACI,gBAAgB,EAAE,gCAAgC;;IAElD,SAAS;IACT,kCAAkC;IAClC,2BAA2B;;IAE3B,wBAAwB;IACxB,+BAA+B;IAC/B,6BAA6B;;IAE7B,SAAS;IACT,wCAAwC;IACxC,mCAAmC;;IAEnC,aAAa;IACb,sCAAsC;AAC1C;AACA;IACI,qCAAqC;IACrC,iBAAiB;IACjB,gBAAgB;AACpB;AACA;IACI,aAAa;IACb,WAAW;IACX,qEAAqE;IACrE,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;AACA;IACI,UAAU;IACV,YAAY;IACZ,uBAAuB;IACvB,qBAAqB;IACrB,iBAAiB;IACjB,iBAAiB;IACjB,kBAAkB;AACtB;AACA;IACI,kBAAkB;IAClB,WAAW;IACX,kBAAkB;IAClB,4BAA4B;IAC5B,QAAQ;AACZ;AACA;IACI,UAAU;IACV,yDAAyD;AAC7D;AACA;IACI,UAAU;IACV,YAAY;AAChB;AACA;IACI,kBAAkB;IAClB,eAAe;AACnB;AACA;IACI,iBAAiB;AACrB;AACA;IACI,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA,8CAA8C;AAC9C,8CAA8C;AAC9C,mBAAmB;AACnB,qBAAqB;AACrB,8CAA8C","sourcesContent":["/* Generic */\r\n*, \r\n*::before, \r\n*::after{\r\n    box-sizing: border-box;\r\n    font-style: normal;\r\n    margin : 0 ; \r\n    padding:0 ;\r\n}\r\n:root{\r\n    font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */\r\n\r\n    /* Text */\r\n    --darkDesatBlue:hsl(238, 29%, 16%);\r\n    --softRed:hsl(14, 88%, 65%);\r\n\r\n    /* Background Gradient */\r\n    --softViolet:hsl(273, 75%, 66%);\r\n    --softBlue:hsl(240, 73%, 65%);\r\n\r\n    /* Text */\r\n    --veryDarkGrayishBlue:hsl(237, 12%, 33%);\r\n    --darkGrayishBlue:hsl(240, 6%, 50%);\r\n\r\n    /* Dividers */\r\n    --lightgrayishBlue : hsl(240, 5%, 91%);\r\n}\r\nbody{\r\n    font-family: 'Kumbh Sans', sans-serif;\r\n    font-size: 1.2rem;\r\n    font-weight: 400;\r\n}\r\nmain{\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-image: linear-gradient(var(--softViolet), var(--softBlue));\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.card{\r\n    width: 80%;\r\n    height: 70vh;\r\n    background-color: white;\r\n    border-radius: 2.5rem;\r\n    position:relative;\r\n    margin-top: 10rem;\r\n    padding-top: 10rem;\r\n}\r\n#icon{\r\n    text-align: center;\r\n    width: 100%;\r\n    position: absolute;\r\n    transform: translate(0,-50%);\r\n    top: -4%;\r\n}\r\n#icon img{\r\n    width: 70%;\r\n    filter: drop-shadow(0px 25px 0px var(--lightgrayishBlue));\r\n}\r\n#content{\r\n    width: 80%;\r\n    margin: auto;\r\n}\r\nh1{\r\n    text-align: center;\r\n    font-size: 3rem;\r\n}\r\n.accordion{\r\n    padding-top: 2rem;\r\n}\r\nh2{\r\n    font-weight: normal;\r\n    font-size: 1.2rem;\r\n}\r\n\r\n/* ----------------------------------------- */\r\n/* ----------------------------------------- */\r\n/* Mobile : 375px */\r\n/* Desktop : 1440px */\r\n/* ----------------------------------------- */\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Generic */\r\n*, \r\n*::before, \r\n*::after{\r\n    box-sizing: border-box;\r\n    font-style: normal;\r\n    margin : 0 ; \r\n    padding:0 ;\r\n}\r\n:root{\r\n    font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */\r\n\r\n    /* Text */\r\n    --darkDesatBlue:hsl(238, 29%, 16%);\r\n    --softRed:hsl(14, 88%, 65%);\r\n\r\n    /* shadow*/\r\n    --color-h: 238; /* Hue        */\r\n    --color-s: 29%; /* Saturation */\r\n    --color-l: 16%; /* Lightness  */\r\n\r\n    /* Background Gradient */\r\n    --softViolet:hsl(273, 75%, 66%);\r\n    --softBlue:hsl(240, 73%, 65%);\r\n\r\n    /* Text */\r\n    --veryDarkGrayishBlue:hsl(237, 12%, 33%);\r\n    --darkGrayishBlue:hsl(240, 6%, 50%);\r\n\r\n    /* Dividers */\r\n    --lightgrayishBlue : hsl(240, 5%, 91%);\r\n}\r\nbody{\r\n    font-family: 'Kumbh Sans', sans-serif;\r\n    font-size: 1.2rem;\r\n    font-weight: 400;\r\n}\r\nmain{\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-image: linear-gradient(var(--softViolet), var(--softBlue));\r\n    display: flex;\r\n    justify-content: center;\r\n    padding-top: 5rem;\r\n}\r\n.card{\r\n    width: 80%;\r\n    max-width: 95rem;\r\n    height: fit-content;\r\n    min-height: 70vh;\r\n    background-color: white;\r\n    border-radius: 2.5rem;\r\n    position:relative;\r\n    margin-top: 10rem;\r\n    padding: 10rem 0 2rem 0;\r\n    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.3);\r\n}\r\n#icon{\r\n    text-align: center;\r\n    width: 100%;\r\n    position: absolute;\r\n    transform: translate(0,-50%);\r\n    top: -4%;\r\n}\r\n.mobileImg{\r\n    width: 80%;\r\n    max-width: 23rem;\r\n}\r\n#icon::after{\r\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    position: absolute;\r\n    transform: translate(-50%,50%);\r\n    left: 50%;\r\n    top: 5rem;\r\n}\r\n.desktopImg{\r\n    display: none;\r\n}\r\n#content{\r\n    width: 80%;\r\n    margin: auto;\r\n}\r\nh1{\r\n    text-align: center;\r\n    font-size: 3rem;\r\n}\r\n.accordion{\r\n    padding-top: 2rem;\r\n    max-width: 30rem;\r\n    margin: auto;\r\n}\r\nh2{\r\n    font-weight: normal;\r\n    font-size: 1.2rem;\r\n    padding: 1.5rem 0;\r\n}\r\nh2:hover{\r\n    color: var(--softRed);\r\n}\r\ndetails{\r\n    border-bottom: solid var(--lightgrayishBlue) 1px;\r\n}\r\ndetails > summary{\r\n    list-style-type: none;\r\n    position: relative;\r\n}\r\ndetails > summary >h2::after{\r\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n    display: inline-block;\r\n    position: absolute;\r\n    right:1%;   \r\n}\r\ndetails[open] > summary >h2::after{\r\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n    display: inline-block;\r\n    position: absolute;\r\n    right:1%; \r\n    transform: rotate(180deg);\r\n}\r\ndetails[open]{\r\n    padding-bottom: 2rem;   \r\n}\r\ndetails[open] h2{\r\n    font-weight: 700;\r\n}\r\n\r\n\r\n@media (min-width: 768px) {\r\n    \r\n}\r\n@media (min-width: 992px) {\r\n    .card{\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        flex-direction: row;\r\n        justify-content: flex-end;\r\n        /* align-items: center; */\r\n        padding: unset;\r\n        overflow: hidden;\r\n    }\r\n    #icon, #content{\r\n        width: 50%;\r\n    }\r\n    #icon{\r\n        top: 50%;\r\n        left: -10%;\r\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\r\n        background-size: cover;\r\n        background-repeat: no-repeat;\r\n        background-position: left;\r\n    }\r\n    /* #icon::after{\r\n        content: url(\"./assets/images/bg-pattern-desktop.svg\");\r\n        position: absolute;\r\n        transform: translate(-50%,50%);\r\n        left: 0;\r\n        top: 0;\r\n    } */\r\n    .mobileImg{\r\n        display: none;\r\n    }\r\n    .desktopImg{\r\n        display: block;\r\n        width: 115%;\r\n    }\r\n    #content{\r\n        margin: unset;\r\n        padding-top:10rem;\r\n    }\r\n    .accordion, h1{\r\n        margin-left: 6rem;\r\n        text-align: left;\r\n    }\r\n\r\n    \r\n}\r\n@media (min-width: 1400px) {\r\n    \r\n}\r\n/* ----------------------------------------- */\r\n/* ----------------------------------------- */\r\n/* Mobile : 375px */\r\n/* Desktop : 1440px */\r\n/* ----------------------------------------- */\r\n\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA,YAAY;AACZ;;;IAGI,sBAAsB;IACtB,kBAAkB;IAClB,WAAW;IACX,UAAU;AACd;AACA;IACI,gBAAgB,EAAE,gCAAgC;;IAElD,SAAS;IACT,kCAAkC;IAClC,2BAA2B;;IAE3B,UAAU;IACV,cAAc,EAAE,eAAe;IAC/B,cAAc,EAAE,eAAe;IAC/B,cAAc,EAAE,eAAe;;IAE/B,wBAAwB;IACxB,+BAA+B;IAC/B,6BAA6B;;IAE7B,SAAS;IACT,wCAAwC;IACxC,mCAAmC;;IAEnC,aAAa;IACb,sCAAsC;AAC1C;AACA;IACI,qCAAqC;IACrC,iBAAiB;IACjB,gBAAgB;AACpB;AACA;IACI,aAAa;IACb,WAAW;IACX,qEAAqE;IACrE,aAAa;IACb,uBAAuB;IACvB,iBAAiB;AACrB;AACA;IACI,UAAU;IACV,gBAAgB;IAChB,mBAAmB;IACnB,gBAAgB;IAChB,uBAAuB;IACvB,qBAAqB;IACrB,iBAAiB;IACjB,iBAAiB;IACjB,uBAAuB;IACvB,+CAA+C;AACnD;AACA;IACI,kBAAkB;IAClB,WAAW;IACX,kBAAkB;IAClB,4BAA4B;IAC5B,QAAQ;AACZ;AACA;IACI,UAAU;IACV,gBAAgB;AACpB;AACA;IACI,gDAAqD;IACrD,kBAAkB;IAClB,8BAA8B;IAC9B,SAAS;IACT,SAAS;AACb;AACA;IACI,aAAa;AACjB;AACA;IACI,UAAU;IACV,YAAY;AAChB;AACA;IACI,kBAAkB;IAClB,eAAe;AACnB;AACA;IACI,iBAAiB;IACjB,gBAAgB;IAChB,YAAY;AAChB;AACA;IACI,mBAAmB;IACnB,iBAAiB;IACjB,iBAAiB;AACrB;AACA;IACI,qBAAqB;AACzB;AACA;IACI,gDAAgD;AACpD;AACA;IACI,qBAAqB;IACrB,kBAAkB;AACtB;AACA;IACI,gDAAmD;IACnD,qBAAqB;IACrB,kBAAkB;IAClB,QAAQ;AACZ;AACA;IACI,gDAAmD;IACnD,qBAAqB;IACrB,kBAAkB;IAClB,QAAQ;IACR,yBAAyB;AAC7B;AACA;IACI,oBAAoB;AACxB;AACA;IACI,gBAAgB;AACpB;;;AAGA;;AAEA;AACA;IACI;QACI,aAAa;QACb,eAAe;QACf,mBAAmB;QACnB,yBAAyB;QACzB,yBAAyB;QACzB,cAAc;QACd,gBAAgB;IACpB;IACA;QACI,UAAU;IACd;IACA;QACI,QAAQ;QACR,UAAU;QACV,yDAA+D;QAC/D,sBAAsB;QACtB,4BAA4B;QAC5B,yBAAyB;IAC7B;IACA;;;;;;OAMG;IACH;QACI,aAAa;IACjB;IACA;QACI,cAAc;QACd,WAAW;IACf;IACA;QACI,aAAa;QACb,iBAAiB;IACrB;IACA;QACI,iBAAiB;QACjB,gBAAgB;IACpB;;;AAGJ;AACA;;AAEA;AACA,8CAA8C;AAC9C,8CAA8C;AAC9C,mBAAmB;AACnB,qBAAqB;AACrB,8CAA8C","sourcesContent":["/* Generic */\r\n*, \r\n*::before, \r\n*::after{\r\n    box-sizing: border-box;\r\n    font-style: normal;\r\n    margin : 0 ; \r\n    padding:0 ;\r\n}\r\n:root{\r\n    font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */\r\n\r\n    /* Text */\r\n    --darkDesatBlue:hsl(238, 29%, 16%);\r\n    --softRed:hsl(14, 88%, 65%);\r\n\r\n    /* shadow*/\r\n    --color-h: 238; /* Hue        */\r\n    --color-s: 29%; /* Saturation */\r\n    --color-l: 16%; /* Lightness  */\r\n\r\n    /* Background Gradient */\r\n    --softViolet:hsl(273, 75%, 66%);\r\n    --softBlue:hsl(240, 73%, 65%);\r\n\r\n    /* Text */\r\n    --veryDarkGrayishBlue:hsl(237, 12%, 33%);\r\n    --darkGrayishBlue:hsl(240, 6%, 50%);\r\n\r\n    /* Dividers */\r\n    --lightgrayishBlue : hsl(240, 5%, 91%);\r\n}\r\nbody{\r\n    font-family: 'Kumbh Sans', sans-serif;\r\n    font-size: 1.2rem;\r\n    font-weight: 400;\r\n}\r\nmain{\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-image: linear-gradient(var(--softViolet), var(--softBlue));\r\n    display: flex;\r\n    justify-content: center;\r\n    padding-top: 5rem;\r\n}\r\n.card{\r\n    width: 80%;\r\n    max-width: 95rem;\r\n    height: fit-content;\r\n    min-height: 70vh;\r\n    background-color: white;\r\n    border-radius: 2.5rem;\r\n    position:relative;\r\n    margin-top: 10rem;\r\n    padding: 10rem 0 2rem 0;\r\n    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.3);\r\n}\r\n#icon{\r\n    text-align: center;\r\n    width: 100%;\r\n    position: absolute;\r\n    transform: translate(0,-50%);\r\n    top: -4%;\r\n}\r\n.mobileImg{\r\n    width: 80%;\r\n    max-width: 23rem;\r\n}\r\n#icon::after{\r\n    content: url(\"./assets/images/bg-pattern-mobile.svg\");\r\n    position: absolute;\r\n    transform: translate(-50%,50%);\r\n    left: 50%;\r\n    top: 5rem;\r\n}\r\n.desktopImg{\r\n    display: none;\r\n}\r\n#content{\r\n    width: 80%;\r\n    margin: auto;\r\n}\r\nh1{\r\n    text-align: center;\r\n    font-size: 3rem;\r\n}\r\n.accordion{\r\n    padding-top: 2rem;\r\n    max-width: 30rem;\r\n    margin: auto;\r\n}\r\nh2{\r\n    font-weight: normal;\r\n    font-size: 1.2rem;\r\n    padding: 1.5rem 0;\r\n}\r\nh2:hover{\r\n    color: var(--softRed);\r\n}\r\ndetails{\r\n    border-bottom: solid var(--lightgrayishBlue) 1px;\r\n}\r\ndetails > summary{\r\n    list-style-type: none;\r\n    position: relative;\r\n}\r\ndetails > summary >h2::after{\r\n    content: url(\"./assets/images/icon-arrow-down.svg\");\r\n    display: inline-block;\r\n    position: absolute;\r\n    right:1%;   \r\n}\r\ndetails[open] > summary >h2::after{\r\n    content: url(\"./assets/images/icon-arrow-down.svg\");\r\n    display: inline-block;\r\n    position: absolute;\r\n    right:1%; \r\n    transform: rotate(180deg);\r\n}\r\ndetails[open]{\r\n    padding-bottom: 2rem;   \r\n}\r\ndetails[open] h2{\r\n    font-weight: 700;\r\n}\r\n\r\n\r\n@media (min-width: 768px) {\r\n    \r\n}\r\n@media (min-width: 992px) {\r\n    .card{\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        flex-direction: row;\r\n        justify-content: flex-end;\r\n        /* align-items: center; */\r\n        padding: unset;\r\n        overflow: hidden;\r\n    }\r\n    #icon, #content{\r\n        width: 50%;\r\n    }\r\n    #icon{\r\n        top: 50%;\r\n        left: -10%;\r\n        background-image: url(\"./assets/images/bg-pattern-desktop.svg\");\r\n        background-size: cover;\r\n        background-repeat: no-repeat;\r\n        background-position: left;\r\n    }\r\n    /* #icon::after{\r\n        content: url(\"./assets/images/bg-pattern-desktop.svg\");\r\n        position: absolute;\r\n        transform: translate(-50%,50%);\r\n        left: 0;\r\n        top: 0;\r\n    } */\r\n    .mobileImg{\r\n        display: none;\r\n    }\r\n    .desktopImg{\r\n        display: block;\r\n        width: 115%;\r\n    }\r\n    #content{\r\n        margin: unset;\r\n        padding-top:10rem;\r\n    }\r\n    .accordion, h1{\r\n        margin-left: 6rem;\r\n        text-align: left;\r\n    }\r\n\r\n    \r\n}\r\n@media (min-width: 1400px) {\r\n    \r\n}\r\n/* ----------------------------------------- */\r\n/* ----------------------------------------- */\r\n/* Mobile : 375px */\r\n/* Desktop : 1440px */\r\n/* ----------------------------------------- */\r\n\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -144,6 +153,48 @@ module.exports = function cssWithMappingToString(item) {
   }
 
   return [content].join("\n");
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -477,6 +528,36 @@ function styleTagTransform(css, style) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/assets/images/bg-pattern-desktop.svg":
+/*!**************************************************!*\
+  !*** ./src/assets/images/bg-pattern-desktop.svg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "f51e07a2f52390c60484.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/bg-pattern-mobile.svg":
+/*!*************************************************!*\
+  !*** ./src/assets/images/bg-pattern-mobile.svg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "55aee9128a769eedabec.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/icon-arrow-down.svg":
+/*!***********************************************!*\
+  !*** ./src/assets/images/icon-arrow-down.svg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "852fa301a0e795e07c59.svg";
+
 /***/ })
 
 /******/ 	});
@@ -505,6 +586,9 @@ module.exports = styleTagTransform;
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -530,6 +614,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -544,6 +640,52 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/
