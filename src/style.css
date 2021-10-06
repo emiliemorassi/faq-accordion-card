@@ -9,6 +9,7 @@
 }
 :root{
     font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */
+
     /* Text */
     --darkDesatBlue:hsl(238, 29%, 16%);
     --softRed:hsl(14, 88%, 65%);
@@ -23,17 +24,58 @@
 
     /* Dividers */
     --lightgrayishBlue : hsl(240, 5%, 91%);
-
 }
 body{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 1.2rem;
-    color: green;
+    font-weight: 400;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(var(--softViolet), var(--softBlue));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 80%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 2.5rem;
+    position:relative;
+    margin-top: 10rem;
+    padding-top: 10rem;
+}
+#icon{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    transform: translate(0,-50%);
+    top: -4%;
+}
+#icon img{
+    width: 70%;
+    filter: drop-shadow(0px 25px 0px var(--lightgrayishBlue));
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.accordion{
+    padding-top: 2rem;
+}
+h2{
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 
 /* ----------------------------------------- */
 /* ----------------------------------------- */
-
 /* Mobile : 375px */
 /* Desktop : 1440px */
 /* ----------------------------------------- */
