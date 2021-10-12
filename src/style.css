@@ -49,6 +49,7 @@ main{
     max-width: 95rem;
     height: fit-content;
     min-height: 70vh;
+    /* height: 70vh; */
     background-color: white;
     border-radius: 2.5rem;
     position:relative;
@@ -170,18 +171,35 @@ details[open] h2{
         margin: unset;
         padding-top:10rem;
     }
+    .accordion{
+        height: 30rem;
+        overflow-y: scroll;
+        padding-right: 1.8rem;
+    }
+    ::-webkit-scrollbar{
+        width: .7rem;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(transparent, var(--softViolet));   
+        border-radius: .5rem; 
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background: linear-gradient(transparent, var(--softRed));   
+    }
     .accordion, h1{
         margin-left: 6rem;
         text-align: left;
     }
     .containerBox{
         display: block;
+        position: relative;
     }
     .box{
         display: block;
         position:absolute;
         top: 47%;
-        left: 10%;
+        left: -95px;
         z-index: 2;
     }
+    
 }
