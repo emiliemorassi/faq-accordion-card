@@ -42,6 +42,7 @@ main{
     display: flex;
     justify-content: center;
     padding-top: 5rem;
+    position: relative;
 }
 .card{
     width: 80%;
@@ -73,7 +74,7 @@ main{
     left: 50%;
     top: 5rem;
 }
-.desktopImg{
+.desktopImg, .containerBox, .boxTest{
     display: none;
 }
 #content{
@@ -96,6 +97,7 @@ h2{
 }
 h2:hover{
     color: var(--softRed);
+    cursor: pointer;
 }
 details{
     border-bottom: solid var(--lightgrayishBlue) 1px;
@@ -108,7 +110,8 @@ details > summary >h2::after{
     content: url("./assets/images/icon-arrow-down.svg");
     display: inline-block;
     position: absolute;
-    right:1%;   
+    right:1%;
+    transition: transform 0.4s;
 }
 details[open] > summary >h2::after{
     content: url("./assets/images/icon-arrow-down.svg");
@@ -116,6 +119,7 @@ details[open] > summary >h2::after{
     position: absolute;
     right:1%; 
     transform: rotate(180deg);
+    transition: transform 0.4s;
 }
 details[open]{
     padding-bottom: 2rem;   
@@ -134,7 +138,6 @@ details[open] h2{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-end;
-        /* align-items: center; */
         padding: unset;
         overflow: hidden;
     }
@@ -142,26 +145,26 @@ details[open] h2{
         width: 50%;
     }
     #icon{
-        top: 50%;
-        left: -10%;
+        position: relative;
+        transform: unset;
         background-image: url("./assets/images/bg-pattern-desktop.svg");
-        background-size: cover;
+        background-size: 150%;
         background-repeat: no-repeat;
-        background-position: left;
+        background-position: right;
+        left: -5rem;
     }
-    /* #icon::after{
-        content: url("./assets/images/bg-pattern-desktop.svg");
-        position: absolute;
-        transform: translate(-50%,50%);
-        left: 0;
-        top: 0;
-    } */
+    #icon::after{
+        display: none;
+    }
     .mobileImg{
         display: none;
     }
     .desktopImg{
         display: block;
-        width: 115%;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
     }
     #content{
         margin: unset;
@@ -171,15 +174,14 @@ details[open] h2{
         margin-left: 6rem;
         text-align: left;
     }
-
-    
+    .containerBox{
+        display: block;
+    }
+    .box{
+        display: block;
+        position:absolute;
+        top: 47%;
+        left: 10%;
+        z-index: 2;
+    }
 }
-@media (min-width: 1400px) {
-    
-}
-/* ----------------------------------------- */
-/* ----------------------------------------- */
-/* Mobile : 375px */
-/* Desktop : 1440px */
-/* ----------------------------------------- */
-
