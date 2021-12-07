@@ -1,205 +1,209 @@
 /* Generic */
-*, 
-*::before, 
-*::after{
-    box-sizing: border-box;
-    font-style: normal;
-    margin : 0 ; 
-    padding:0 ;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
 }
-:root{
-    font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */
+:root {
+  font-size: 62.5%; /* 1rem = 10px (1.6rem = 16px) */
 
-    /* Text */
-    --darkDesatBlue:hsl(238, 29%, 16%);
-    --softRed:hsl(14, 88%, 65%);
+  /* Text */
+  --darkDesatBlue: hsl(238, 29%, 16%);
+  --softRed: hsl(14, 88%, 65%);
 
-    /* shadow*/
-    --color-h: 238; /* Hue        */
-    --color-s: 29%; /* Saturation */
-    --color-l: 16%; /* Lightness  */
+  /* shadow*/
+  --color-h: 238; /* Hue        */
+  --color-s: 29%; /* Saturation */
+  --color-l: 16%; /* Lightness  */
 
-    /* Background Gradient */
-    --softViolet:hsl(273, 75%, 66%);
-    --softBlue:hsl(240, 73%, 65%);
+  /* Background Gradient */
+  --softViolet: hsl(273, 75%, 66%);
+  --softBlue: hsl(240, 73%, 65%);
 
-    /* Text */
-    --veryDarkGrayishBlue:hsl(237, 12%, 33%);
-    --darkGrayishBlue:hsl(240, 6%, 50%);
+  /* Text */
+  --veryDarkGrayishBlue: hsl(237, 12%, 33%);
+  --darkGrayishBlue: hsl(240, 6%, 50%);
 
-    /* Dividers */
-    --lightgrayishBlue : hsl(240, 5%, 91%);
+  /* Dividers */
+  --lightgrayishBlue: hsl(240, 5%, 91%);
 }
-body{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
-main{
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(var(--softViolet), var(--softBlue));
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
-    position: relative;
+main {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(var(--softViolet), var(--softBlue));
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  position: relative;
 }
-.card{
-    width: 80%;
-    max-width: 95rem;
-    height: fit-content;
-    min-height: 70vh;
-    /* height: 70vh; */
-    background-color: white;
-    border-radius: 2.5rem;
-    position:relative;
-    margin-top: 10rem;
-    padding: 10rem 0 2rem 0;
-    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.3);
+.card {
+  width: 80%;
+  max-width: 95rem;
+  height: fit-content;
+  min-height: 70vh;
+  /* height: 70vh; */
+  background-color: white;
+  border-radius: 2.5rem;
+  position: relative;
+  margin-top: 10rem;
+  padding: 10rem 0 2rem 0;
+  box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.3);
 }
-#icon{
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    transform: translate(0,-50%);
-    top: -4%;
+#icon {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  transform: translate(0, -50%);
+  top: -4%;
 }
-.mobileImg{
-    width: 80%;
-    max-width: 23rem;
+.mobileImg {
+  width: 80%;
+  max-width: 23rem;
 }
-#icon::after{
-    content: url("./assets/images/bg-pattern-mobile.svg");
-    position: absolute;
-    transform: translate(-50%,50%);
-    left: 50%;
-    top: 5rem;
+#icon::after {
+  content: url("./assets/images/bg-pattern-mobile.svg");
+  position: absolute;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  top: 5rem;
 }
-.desktopImg, .containerBox, .boxTest{
-    display: none;
+.desktopImg,
+.containerBox,
+.boxTest {
+  display: none;
 }
-#content{
-    width: 80%;
-    margin: auto;
+#content {
+  width: 80%;
+  margin: auto;
 }
-h1{
-    text-align: center;
-    font-size: 3rem;
+h1 {
+  text-align: center;
+  font-size: 3rem;
 }
-.accordion{
-    padding-top: 2rem;
-    max-width: 30rem;
-    margin: auto;
+.accordion {
+  padding-top: 2rem;
+  max-width: 30rem;
+  margin: auto;
 }
-h2{
-    font-weight: normal;
-    font-size: 1.2rem;
-    padding: 1.5rem 0;
+h2 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 1.5rem 0;
 }
-h2:hover{
-    color: var(--softRed);
-    cursor: pointer;
+h2:hover {
+  color: var(--softRed);
+  cursor: pointer;
 }
-details{
-    border-bottom: solid var(--lightgrayishBlue) 1px;
+details {
+  border-bottom: solid var(--lightgrayishBlue) 1px;
 }
-details > summary{
-    list-style-type: none;
-    position: relative;
+details > summary {
+  list-style-type: none;
+  position: relative;
 }
-details > summary >h2::after{
-    content: url("./assets/images/icon-arrow-down.svg");
-    display: inline-block;
-    position: absolute;
-    right:1%;
-    transition: transform 0.4s;
+details > summary > h2::after {
+  content: url("./assets/images/icon-arrow-down.svg");
+  display: inline-block;
+  position: absolute;
+  right: 1%;
+  transition: transform 0.4s;
 }
-details[open] > summary >h2::after{
-    content: url("./assets/images/icon-arrow-down.svg");
-    display: inline-block;
-    position: absolute;
-    right:1%; 
-    transform: rotate(180deg);
-    transition: transform 0.4s;
+details[open] > summary > h2::after {
+  content: url("./assets/images/icon-arrow-down.svg");
+  display: inline-block;
+  position: absolute;
+  right: 1%;
+  transform: rotate(180deg);
+  transition: transform 0.4s;
 }
-details[open]{
-    padding-bottom: 2rem;   
+details[open] {
+  padding-bottom: 2rem;
 }
-details[open] h2{
-    font-weight: 700;
+details[open] h2 {
+  font-weight: 700;
 }
-
 
 @media (min-width: 768px) {
-    
 }
 @media (min-width: 992px) {
-    .card{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding: unset;
-        overflow: hidden;
-    }
-    #icon, #content{
-        width: 50%;
-    }
-    #icon{
-        position: relative;
-        transform: unset;
-        background-image: url("./assets/images/bg-pattern-desktop.svg");
-        background-size: 150%;
-        background-repeat: no-repeat;
-        background-position: right;
-        left: -5rem;
-    }
-    #icon::after{
-        display: none;
-    }
-    .mobileImg{
-        display: none;
-    }
-    .desktopImg{
-        display: block;
-        width: 100%;
-        position: absolute;
-        transform: translateY(-50%);
-        top: 50%;
-    }
-    #content{
-        margin: unset;
-        padding-top:10rem;
-    }
-    .accordion{
-        height: 30rem;
-        overflow-y: scroll;
-        padding-right: 1.8rem;
-    }
-    ::-webkit-scrollbar{
-        width: .7rem;
-    }
-    ::-webkit-scrollbar-thumb{
-        background: linear-gradient(transparent, var(--softViolet));   
-        border-radius: .5rem; 
-    }
-    ::-webkit-scrollbar-thumb:hover{
-        background: linear-gradient(transparent, var(--softRed));   
-    }
-    .accordion, h1{
-        margin-left: 6rem;
-        text-align: left;
-    }
-    .containerBox{
-        display: block;
-        position: relative;
-    }
-    .box{
-        display: block;
-        position:absolute;
-        top: 47%;
-        left: -95px;
-        z-index: 2;
-    }
-    
+  main {
+    padding-top: 0;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: unset;
+    overflow: hidden;
+  }
+  #icon,
+  #content {
+    width: 50%;
+  }
+  #icon {
+    position: relative;
+    transform: unset;
+    background-image: url("./assets/images/bg-pattern-desktop.svg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: right;
+    left: -5rem;
+  }
+  #icon::after {
+    display: none;
+  }
+  .mobileImg {
+    display: none;
+  }
+  .desktopImg {
+    display: block;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  #content {
+    margin: unset;
+    padding-top: 10rem;
+  }
+  .accordion {
+    height: 30rem;
+    overflow-y: scroll;
+    padding-right: 1.8rem;
+  }
+  ::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, var(--softViolet));
+    border-radius: 0.5rem;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, var(--softRed));
+  }
+  .accordion,
+  h1 {
+    margin-left: 6rem;
+    text-align: left;
+  }
+  .containerBox {
+    display: block;
+    position: relative;
+  }
+  .box {
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: -95px;
+    z-index: 2;
+  }
 }

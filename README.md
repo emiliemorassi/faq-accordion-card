@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion card solution
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,9 +13,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,7 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![screenshot](https://user-images.githubusercontent.com/63777985/136931921-75bb62ca-2b7e-4fa6-a63a-c23d6a79b4f1.jpg)
-
 
 ### Links
 
@@ -50,14 +46,13 @@ Users should be able to:
 
 No need for JavaScript to make a FAQ Accordion.
 Somehow I didn't know the details and summary tags.
-Very easy to use and style. 
-
+Very easy to use and style.
 
 ### Continued development
 
-Still can't really figure how to position the box image so it doesn't move when resizing the page.
-So positioning is propably a good thing to keep an eye on for now.
-
+Had a hard time figuring out the positioning of the box image so it didn't move when resizing the page. So, positioning is propably a good thing to keep an eye on for now.
+First time using webpack. Not really needed here but it was a good exercise to understand how it all works. My biggest problem was to make it work with github pages.
+Also, more efficient and clean commits would be nice.
 
 ## Author
 
